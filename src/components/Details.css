@@ -1,0 +1,57 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .backButton {
+    background-color: #fa152a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px saddlebrown;
+    border-radius: 6px;
+  }
+
+  .backButton:hover {
+    background-color: #fff; /* Green */
+    color: black;
+    box-shadow: 1px 2px 3px black;
+  }
+
+  .refreshButton {
+    background-color: #2ca0fd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px #13598b;
+    border-radius: 6px;
+  }
+
+
+  .refreshButton:hover {
+    background-color: #fff; /* Green */
+    color: black;
+    box-shadow: 1px 2px 3px black;
+  }
